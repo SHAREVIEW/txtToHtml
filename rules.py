@@ -1,4 +1,5 @@
 # encoding: utf-8
+#用来判断传入的参数属于哪个标签，然后调用handlers来写html
 class Rule:
 	def action(self,block,handler):
 		handler.start(self.type)
